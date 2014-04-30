@@ -1,0 +1,10 @@
+name: GoldShops
+main: eu.gnomino.goldshops.GoldShopsPlugin
+version: 1.3
+description: Makes shops where you pay with Gold Ingots.
+author: Gnomino
+website: http://dev.bukkit.org/bukkit-plugins/goldshops/
+permissions:
+  GoldShops.adminshop:
+    description: Allows to make Admin Shops ( unlimited ressources )
+    default: op

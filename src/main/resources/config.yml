@@ -1,0 +1,14 @@
+# This config file contains all the interactions with players
+sell_sign: "Sells"
+price_prefix: "for" # Will be written before the price on signs
+price_unit: "gold"
+cannot_pay: "You don't have enough gold ingots"
+buy_notice: "You just bought ${quantity} ${material} for ${price} gold ingots"
+below_not_chest: "The block below the sign is not a chest"
+not_enough_in_chest: "The chest does not contain what you're asking for"
+bad_quantity: "Invalid quantity"
+bad_material: "Invalid item"
+no_permission: "You don't have permission"
+sell_notice: "You sell ${quantity} ${material} for ${price} gold ingots"
+admin_shop_owner: "STAFF"
+currency: GOLD_NUGGET

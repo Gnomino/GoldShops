@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+  http://maven.apache.org/maven-v4_0_0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>eu.gnomino.goldshops</groupId>
+   <artifactId>GoldShops</artifactId>
+   <version>1.3</version>
+   <name>[Bukkit] Use items as currency for shops</name>
+   <url>http://dev.bukkit.org/bukkit-plugins/goldshops/</url>
+   <repositories>
+        <repository>
+          <id>bukkit-repo</id>
+          <url>http://repo.bukkit.org/content/groups/public/</url>
+        </repository>
+    </repositories>
+   <dependencies>
+    <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <scope>provided</scope>
+            <version>1.6.4-R2.0</version>
+        </dependency>
+   </dependencies>
+</project>
